@@ -32,6 +32,36 @@ public class aula2 {
         // || (or)
         // !(not)
 
+        int contador = 0;
+        while (contador<5){
+            // bloco
+            System.out.println("Contador: "+ contador);
+            contador++;
+
+        }
+        // 2
+        contador = 0;
+        do{
+            System.out.println("Contador: "+ contador);
+            contador++
+        }while(contador<5)
+
+        //3 laço for(a=0;a<5;a++)
+        for(contador=0;contador<5;contador++){
+            System.out.println("Contador for: "+contador);
+        }
+        //
+        switch(caracter){
+            case 'L': System.out.println("Luiz"); break;
+            case 'G': System.out.println("Gerson"); break;
+            default: System.out.println("Opção Incorreta");
+        }
+
+        // operador ternario
+        boolean validacao = contador==5?true:false;
+        mensagem = contador==5?"valido":"invalido";
+
+
 
         System.out.println("Hello, World!");
 
