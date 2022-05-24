@@ -30,7 +30,7 @@ public class App06 {
         media = (((a*3.5) + (b*7.5)) / (11.0));
 
         System.out.println();
-        System.out.printf("MEDIA=%6.5f\n", media); // "MEDIA=%6.5\n"
+        System.out.printf("MEDIA = %6.5f\n", media); // "MEDIA=%6.5\n"
  
     }
     
